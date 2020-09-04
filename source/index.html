@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <title>ASSOCIATES - студия дизайна</title>
+  <link rel="preload stylesheet" type="text/css" href="css/style.min.css" as="style">
+  <link rel="preload" href="fonts/opensans.woff2" as="font">
+</head>
+<body>
+  <div class="wrapper">
+    <div style="display:none">
+      <include src="build/img/sprite.svg"></include>
+    </div>
+
+    <header class="container page-header">
+      <div class="page-header__home">
+        <a class="page-header__logo" href="#">
+          <picture>
+            <source media="(min-width: 1500px)" srcset="img/logo-desktop.png"/>
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.png"/>
+            <img class="page-header__logo-image" src="img/logo-mobile.png" width="162" height="207" alt="Логотип с надписью 'Mishka'"/>
+          </picture>
+        </a>
+        <span class="page-header__title">ASSOCIATES STUDIO DESIGN</span>
+        <div class="page-header__social">
+          <ul class="social-list social-list--header">
+            <li class="social-list__item">
+              <a class="social-list__link social-list__link--" href="#">
+                <svg class="social-list__icon" x="0" y="0" width="21" height="21">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+                <span class="visually-hidden">Facebook</span>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link social-list__link--" href="#">
+                <svg class="social-list__icon" x="0" y="0" width="21" height="21">
+                  <use xlink:href="#twitter"></use>
+                </svg>
+                <span class="visually-hidden">Twitter</span>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link social-list__link--" href="#">
+                <svg class="social-list__icon" x="0" y="0" width="21" height="21">
+                  <use xlink:href="#linkedin"></use>
+                </svg>
+                <span class="visually-hidden">Linkedin</span>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link social-list__link--" href="#">
+                <svg class="social-list__icon" x="0" y="0" width="21" height="21">
+                  <use xlink:href="#g+"></use>
+                </svg>
+                <span class="visually-hidden">Google</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="page-header__showcase">
+        <a href="">
+          <img class="" src="img/chair.png">
+        </a>
+      </div>
+      <div class="page-header__address contacts-header dividing_line">
+        <div class="contacts-header__top">
+          <p>90802 California Long beach PO&nbsp;Box 68789 300&nbsp;East Ocean Boulevard</p>
+        </div>
+        <div class="contacts-header__bottom">
+          <p>+64 9 345 6758 info@dsgn-studio.com</p>
+        </div>
+      </div>
+      <nav class="main-nav main-nav--closed main-nav--nojs">
+        <button class="main-nav__toggle">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper" aria-label="Меню сайта">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--catalog">
+              <a class="site-list__link site-list__link--catalog" href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="site-list__item site-list__item--knitting">
+              <a class="site-list__link site-list__link--knitting" href="form.html">Вязание на заказ</a>
+            </li>
+            <li class="site-list__item site-list__item--search">
+              <a class="site-list__link site-list__link--search" href="#" aria-label="Поиск по сайту">
+                <svg class="site-list__icon--search" x="0" y="0" width="17" height="17">
+                  <use xlink:href="#icon-search"></use>
+                </svg>
+                <span class="site-list__hide-desktop">Поиск по сайту</span>
+              </a>
+            </li>
+            <li class="site-list__item site-list__item--basket">
+              <a class="site-list__link site-list__link--basket" href="#" aria-label="Корзина с товарами">
+                <svg class="site-list__icon--basket" x="0" y="0" width="20" height="18">
+                  <use xlink:href="#icon-cart"></use>
+                </svg>Корзина:
+                <span>пока пуста</span>
+              </a>
+            </li>
+            <li class="site-list__item site-list__item--new-arrivals">
+              <a class="site-list__link site-list__link--new-arrivals" href="#" aria-label="Новые поступления">Новые поступления</a>
+            </li>
+            <li class="site-list__item site-list__item--sale">
+              <a class="site-list__link site-list__link--sale" href="#" aria-label="Распродажа">Распродажа</a>
+            </li>
+            <li class="site-list__item site-list__item--delivery">
+              <a class="site-list__link site-list__link--delivery" href="#" aria-label="Корзина с товарами">Бесплатная доставка по России</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="container projects">
+        <ul class="projects__list">
+          <li class="section-title section-title__projects dividing_line">
+            <div class="projects-menu">
+              <ul class="projects-menu__list">
+                <li class="projects-menu__list__item">
+                  <input id="radio-all" type="radio" name="projects-menu" value="All" checked>
+                  <label class="projects-menu__list__label--checkbox" for="radio-all" class="">
+                    All
+                  </label>
+                </li>
+                <li class="projects-menu__list__item ">
+                  <input id="radio-House" type="radio" name="projects-menu" value="House">
+                  <label class="projects-menu__list__label--checkbox" for="radio-House" class="">
+                    House
+                  </label>
+                </li>
+                <li class="projects-menu__list__item">
+                  <input id="radio-Commercial" type="radio" name="projects-menu" value="Commercial">
+                  <label class="projects-menu__list__label--checkbox" for="radio-Commercial" class="">
+                    Commercial
+                  </label>
+                </li>
+                <li class="projects-menu__list__item">
+                  <input id="radio-Personal" type="radio" name="projects-menu" value="Personal">
+                  <label class="projects-menu__list__label--checkbox" for="radio-Personal" class="">
+                    Personal
+                  </label>
+                </li>
+                <li class="projects-menu__list__item">
+                  <input id="radio-Studio" type="radio" name="projects-menu" value="Studio Lab">
+                  <label class="projects-menu__list__label--checkbox" for="radio-Studio" class="">
+                    Studio Lab
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="projects__title">
+              <h2>Projects</h2>
+            </div>
+          </li>
+          <li class="projects__list-item projects__list-item--fondue">
+            <h3>FONDUE</h3>
+            <dl class="projects__list-description-list">
+              <dt><b>Project Assistant</b>:</dt>
+              <dd>Francesco Dompieri</dd>
+              <dt><b>Material</b>:</dt>
+              <dd>Glass and Metal</dd>
+              <dt><b>Typology</b>:</dt>
+              <dd>Suspension lamp</dd>
+              <dt><b>Client</b>:</dt>
+              <dd>David Design</dd>
+              <dt><b>Year</b>:</dt>
+              <dd>2014</dd>
+            </dl>
+            <a class="projects__list-view" href="">view project</a>
+            <button class="btn-like">
+                <svg class="social-list__icon" x="0" y="0" width="24" height="24">
+                  <use xlink:href="#heart"></use>
+                </svg>
+            </button>
+            <span class="count-like">+200</span>
+            <img class="projects__list-img" src="img/">
+          </li>
+          <li class="projects__list-item projects__list-item--potter">
+            <h3>potter</h3>
+            <span>
+              <b>for</b> stelton
+            </span>
+            <p class="projects__list-description">
+              Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed.
+            </p>
+            <a class="projects__list-view" href="">view project</a>
+            <button class="btn-like">
+              <svg class="social-list__icon" x="0" y="0" width="24" height="24">
+                <use xlink:href="#heart"></use>
+              </svg>
+            </button>
+            <span class="count-like">+200</span>
+            <img class="projects__list-img" src="img/">
+          </li>
+          <li class="projects__list-item projects__list-item--louis">
+            <h3>louis xx</h3>
+            <dl class="projects__list-description-list">
+              <dt><b>designer</b>:</dt>
+              <dd>philippe starck</dd>
+              <dt><b>ypology</b>:</dt>
+              <dd>chairs</dd>
+              <dt><b>Client</b>:</dt>
+              <dd>vitra</dd>
+              <dt><b>Year</b>:</dt>
+              <dd>2012</dd>
+            </dl>
+            <a class="projects__list-view" href="">view project</a>
+            <button class="btn-like">
+              <svg class="social-list__icon" x="0" y="0" width="24" height="24">
+                <use xlink:href="#heart"></use>
+              </svg>
+            </button>
+            <span class="count-like">+200</span>
+            <img class="projects__list-img" src="img/">
+          </li>
+          <li class="projects__list-item projects__list-item--3395">
+            <h3>395-396 P22</h3>
+            <dl class="projects__list-description-list">
+              <dt><b>Designer</b>:</dt>
+              <dd>Patrick Norguet</dd>
+              <dt><b>Typology</b>:</dt>
+              <dd>ARMchairs</dd>
+              <dt><b>Client</b>:</dt>
+              <dd>Cassina</dd>
+              <dt><b>Year</b>:</dt>
+              <dd>2013</dd>
+            </dl>
+            <a class="projects__list-view" href="">view project</a>
+            <button class="btn-like">
+              <svg class="social-list__icon" x="0" y="0" width="24" height="24">
+                <use xlink:href="#heart"></use>
+              </svg>
+            </button>
+            <span class="count-like">+200</span>
+            <img class="projects__list-img" src="img/">
+          </li>
+          <li class="projects__list-item projects__list-item--tabano">
+            <h3>tabano</h3>
+            <dl class="projects__list-description-list">
+              <dt><b>DESIGNER</b>:</dt>
+              <dd>PATRICIA URQUIOLA</dd>
+              <dt><b>Typology</b>:</dt>
+              <dd>Armchairs</dd>
+              <dt><b>Client</b>:</dt>
+              <dd>B&B ITALIA</dd>
+              <dt><b>Year</b>:</dt>
+              <dd>2014</dd>
+            </dl>
+            <a class="projects__list-view" href="">view project</a>
+            <button class="btn-like">
+              <svg class="social-list__icon" x="0" y="0" width="24" height="24">
+                <use xlink:href="#heart"></use>
+              </svg>
+            </button>
+            <span class="count-like">+200</span>
+            <img class="projects__list-img" src="img/">
+          </li>
+          <li class="projects__list-item projects__list-item--fiji">
+            <h3>FIJI</h3>
+            <dl class="projects__list-description-list">
+              <dt><b></b>:</dt>
+              <dd></dd>
+              <dt><b>designer</b>:</dt>
+              Cuno Frommherz
+              <dt><b>Typology</b>:</dt>
+              armchairs
+              <dt><b>Year</b>:</dt>
+              2012
+            </dl>
+            <a class="projects__list-view" href="">view project</a>
+            <button class="btn-like">
+              <svg class="social-list__icon" x="0" y="0" width="24" height="24">
+                <use xlink:href="#heart"></use>
+              </svg>
+            </button>
+            <span class="count-like">+200</span>
+            <img class="projects__list-img" src="img/">
+          </li>
+          <li class="projects__list-item projects__list-item--sesann">
+            <h3>Sesann</h3>
+            <dl class="projects__list-description-list">
+             <dt><b>designer</b>:</dt>
+             <dd>Gianfranco Frattini</dd>
+             <dt><b>Typology</b>:</dt>
+             <dd>armchairs</dd>
+             <dt><b>Client</b>:</dt>
+             <dd>cassina</dd>
+             <dt><b>Year</b>:</dt>
+             <dd>1970</dd>
+           </dl>
+           <a class="projects__list-view" href="">view project</a>
+           <div class="btn-like"> 
+              <button class="btn-like__btn">
+                <svg class="btn-like__icon" x="0" y="0" width="24" height="24">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </button>
+              <span class="btn-like__count-like">+200</span> 
+           </div>
+          <img class="projects__list-img" src="img/">
+        </li>
+        <li class="projects__list-item projects__list-item--alessi">
+          <h3>Alessi</h3>
+          <dl class="projects__list-description-list">
+            <dt><b>designer</b>:</dt>
+            <dd>Piero Lissoni</dd>
+            <dt><b>Client</b>:</dt>
+            <dd>Alessi</dd>
+            <dt><b>Year</b>:</dt>
+            <dd>2013</dd>
+          </dl>
+          <a class="projects__list-view" href="">view project</a>
+          <button class="btn-like">
+            <svg class="social-list__icon" x="0" y="0" width="24" height="24">
+                <use xlink:href="#heart"></use>
+            </svg>
+          </button>
+          <span class="count-like">+200</span>
+          <img class="projects__list-img" src="img/">
+        </li>
+        <li class="section-timeline projects__list-item--timeline">
+          <div class="projects-timeline">
+            <span>timeline</span>
+            <ul class="timeline-menu-list">
+              <li class="timeline-menu-list">
+                <input id="radio-all" type="radio" name="projects-menu" value="All">
+                <label for="radio-all" class="">
+                  2014
+                </label>
+              </li>
+              <li class="timeline-menu-list">
+                <input id="radio-House" type="radio" name="projects-menu" value="House">
+                <label for="radio-House" class="">
+                  2013
+                </label>
+              </li>
+              <li class="timeline-menu-list">
+                <input id="radio-Commercial" type="radio" name="projects-menu" value="Commercial">
+                <label for="radio-Commercial" class="">
+                  2012
+                </label>
+              </li>
+              <li class="timeline-menu-list">
+                <input id="radio-Personal" type="radio" name="projects-menu" value="Personal">
+                <label for="radio-Personal" class="">
+                  2011
+                </label>
+              </li>
+              <li class="timeline-menu-list">
+                <input id="radio-Studio" type="radio" name="projects-menu" value="Studio Lab">
+                <label for="radio-Studio" class="">
+                  2010
+                </label>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="studio">
+      <div class="section-title section-title__studio dividing_line">
+        <div class="studio-title">
+          <h2>Studio</h2>
+        </div>
+      </div>
+      <div class="studio-description">
+        <div class="description-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</p> 
+          <p>Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</p>
+          <p>Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat.</p>
+          <p>Vivamus eget laoreet enim. Sed nunc dui, egestas vel diam convallis, faucibus iaculis sapien. Sed ut vulputate nisi.</p>
+          <p>Proin tempor risus tellus. Maecenas sit amet fringilla urna, vel iaculis velit. Sed ac felis et sem mollis dictum sed id orci.</p>  
+        </div>
+        <div class="description-img">
+          <img src="">
+          <span class="">Awards</span>
+          <ul class="description-list">
+            <li class="description-list__item">Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat. Vivamus</li>
+            <li class="description-list__item">Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat. Vivamus</li>
+          </ul>
+        </div>
+      </div>
+      <ul class="studio-list-staff">
+        <li class="studio-list-staff__item">
+          <span>Staff.</span>  
+          <p>Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincidunt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus.</p>
+          <p>Aenean diam tortor, hendrerit ac pulvinar vel, condimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut.</p>
+          <p>Morbi sagittis diam mauris, in adipiscing nulla convallis ut.</p>
+        </li>
+        <li class="studio-list-staff__item studio-list-staff__item_worker">
+          <img class="worker-img" src="">
+          <span class="worker-name">philippe starck</span>
+          <span class="worker-position">designer</span>
+          <a class="worker-info" href="">cv</a>
+          <ul class="worker-social-list">
+            <li class="worker-social-list__item">
+              <svg class="social-list__icon" x="0" y="0" width="21" height="21">
+                <use xlink:href="#icon-insta"></use>
+              </svg>
+              <span class="visually-hidden">Facebook</span>
+            </li>
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Twitter</span>
+            </li>
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Linkedin</span>
+            </li> 
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Google</span>
+            </li>     
+          </ul>
+        </li>
+        <li class="studio-list-staff__item studio-list-staff__item_worker">
+          <img class="worker-img" src="">
+          <span class="worker-name">mario bellini</span>
+          <span class="worker-position">designer</span>
+          <a class="worker-info" href="">cv</a>
+          <ul class="worker-social-list">
+            <li class="worker-social-list__item">
+              <svg class="social-list__icon" x="0" y="0" width="21" height="21">
+                <use xlink:href="#icon-insta"></use>
+              </svg>
+              <span class="visually-hidden">Facebook</span>
+            </li>
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Twitter</span>
+            </li>
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Linkedin</span>
+            </li> 
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Google</span>
+            </li>     
+          </ul>
+        </li>
+        <li class="studio-list-staff__item studio-list-staff__item_worker">
+          <img class="worker-img" src="">
+          <span class="worker-name">patricia urquiola</span>
+          <span class="worker-position">designer</span>
+          <a class="worker-info" href="">cv</a>
+          <ul class="worker-social-list">
+            <li class="worker-social-list__item">
+              <svg class="social-list__icon" x="0" y="0" width="21" height="21">
+                <use xlink:href="#icon-insta"></use>
+              </svg>
+              <span class="visually-hidden">Facebook</span>
+            </li>
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Twitter</span>
+            </li>
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Linkedin</span>
+            </li> 
+            <li class="worker-social-list__item">
+              <svg class="" x="" y="" width="" height="">
+                <use xlink:href="#"></use> 
+              </svg>
+              <span class="visually-hidden">Google</span>
+            </li>     
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="news">
+      <div class="section-title section-title__news dividing_line">
+        <div class="news-title">
+          <h2>News</h2>
+        </div>
+      </div>
+      <ul class="news-list">
+        <li class="news-list__item">
+          <h2>Mauris et dui sed justo placerat tristique.</h2>
+          <span>11.07.2014</span>
+          <img class="news-img" class="" src="">
+          <p class="news-description">Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget. Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien fermentum scelerisque eu id massa. Mauris ornare massa vel mauris tempus, vitae tempus urna tincidunt. /p>
+            <a href="">read more</a>
+          </li>
+          <li class="news-list__item">
+            <h2>Proin vehicula nibh massa </h2>
+            <span>11.07.2014</span>
+            <img class="news-img" class="" src="">
+            <p class="news-description">Praesent non mauris nec orci scelerisque faucibus. Nulla ac varius est. Aenean auctor nisl elit, nec sollicitudin lectus iaculis sed. Maecenas aliquam ligula vitae pharetra scelerisque.</p>
+            <a href="">read more</a>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <div class="map">
+          <img src="">  
+        </div>
+        <div class="address-footer"> 
+          <p>90802 California Long beach PO Box 68789 300 East Ocean Boulevard</p>
+          <p>+64 9 345 6758 info@dsgn-studio.com</p>
+          <a class="page-footer__logo" href="#">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"/>
+              <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"/>
+              <img class="page-footer__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип с надписью 'Mishka'"/>
+            </picture>
+          </a>
+          <span>
+            ASSOCIATES студия дизайна
+          </span>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="js/script.min.js"></script>
+  </body>
+  </html>
+
+

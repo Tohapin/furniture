@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="facebook icon.svg"
+   viewBox="0 0 13.333333 29.333332"
+   height="29.333332"
+   width="13.333333"
+   id="svg66"
+   version="1.1">
+  <metadata
+     id="metadata72">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs70" />
+  <sodipodi:namedview
+     inkscape:current-layer="g74"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="14.521943"
+     inkscape:cx="8.3347326"
+     inkscape:zoom="28.977274"
+     showgrid="true"
+     id="namedview68"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff">
+    <inkscape:grid
+       id="grid903"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <g
+     id="g74"
+     inkscape:label="Image"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:nodetypes="cccccccscccccccccc"
+       id="path78"
+       d="M 0,9 H 2 C 2,9 2,5.6093364 2,4 2.4038457,2.168625 2.8075233,1.3651701 5.0384312,0.00862745 L 13.37647,0.0172549 13.37257,5.763137 H 9.9388451 c 0,0 -0.3090731,0.1135568 -0.4055121,0.236863 C 9.4326238,6.1287662 9.3952941,6.470588 9.3952941,6.470588 L 9.3952937,9 h 3.9772543 v 6 H 10 V 29.367842 H 2.0360783 L 2,15 H 0 Z"
+       style="fill:#7bcbc1;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:0.66" />
+  </g>
+</svg>

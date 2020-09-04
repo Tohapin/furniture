@@ -1,0 +1,75 @@
+.projects-menu {
+	display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 0;
+    left: 0;
+    width: 53%;
+    height: 49%;
+}
+
+.projects-menu__list {
+
+	font-family: @roboto;
+	list-style: none;
+	font-size: 13px;
+	color: @white-font;
+	line-height: 1.08;
+	text-transform: uppercase;
+}
+
+.projects-menu__list__item {
+
+}
+
+.projects-menu__list__item input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.projects-menu__list__item label {
+	position: relative;
+}
+
+.projects-menu__list__label--checkbox {
+	padding-left: 40px;
+}
+
+.projects-menu__list__label--checkbox::before {
+
+}
+
+input:hover + .projects-menu__list__label--checkbox,
+input:focus + .projects-menu__list__label--checkbox {
+	color: @black-font;
+}
+
+input:checked + .projects-menu__list__label--checkbox {
+	color: @black-font;
+}
+
+input:active + .projects-menu__list__label--checkbox::before {
+	content: url('../img/arrow.svg') ;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+}
+
+input:checked + .projects-menu__list__label--checkbox::before {
+	content: url('../img/arrow.svg') ;
+	display: inline-block;
+  	position: absolute;
+  	width: 10px;
+  	top: 0;
+  	left: 0;
+}
